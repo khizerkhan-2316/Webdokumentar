@@ -1,0 +1,274 @@
+/* Google fonts beneath: */
+
+/* Spørgsmål-font: */
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+/* tekst-font to everything besides questions: */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* Heading font: */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* CSS-variabler listet forneden: */
+
+:root{
+    
+--main-header-font:'Alata', sans-serif;
+--main-text-font: 'Roboto', sans-serif;
+--main-question-font: 'Russo One', sans-serif;
+}
+
+
+body{
+margin: 0;
+padding: 0;
+background-color: #1D232C;
+}
+
+#front-banner-box{
+width: 99.9%;
+height: 80%;
+}
+
+#front-banner{
+width: 99.9%;
+height: 50%;
+position: relative;
+z-index: -1;
+
+}
+
+.container{
+width: 80%;
+height: auto;
+margin-left: 10%;
+z-index: 10;
+display: flex;
+margin-top: -6%;
+
+}
+
+.box{
+width: 33%;
+border: 1px solid black;
+height:auto;
+display: flex;
+flex-flow:  column;
+align-items: center;
+text-align: center;
+justify-content: center;
+background-color: white;
+margin-bottom: 4%;
+}
+
+.box img{
+width: 15%;
+margin-top: 3%;
+}
+
+.box h2{
+font-family: var(--main-header-font); 
+font-size: 25px;
+margin: 0;
+padding: 0;
+}
+
+.box p{
+margin: 0;
+line-height: 1.5;
+width: 75%;
+font-family: var(--main-text-font);
+margin-bottom: 3%;
+}
+
+
+.container-1{
+width: 99.9%;
+height: 300px;
+display: flex;
+}
+
+.box_1{
+width: 60%;
+display: flex;
+flex-flow: column;
+justify-content: center;
+}
+
+.box_2{
+width: 39.9%;
+display: flex;
+flex-flow: column;
+justify-content: center;
+}
+
+.box_1 h2{
+font-family: var(--main-header-font);
+color: white;
+margin-left: 16.67%;
+margin-top: 0;
+line-height: 1.5;
+}
+
+.box_1 p{
+ font-family: var(--main-text-font);
+color: white;
+margin-left: 16.67%;
+margin-top: 0;
+line-height: 1.5;
+width: 80%;
+}  
+
+
+.box_2 img{
+width: 55%; 
+border: 1px solid white;
+margin-left: 15%;
+}
+
+
+.video-container{
+width: 99.9%;
+height: auto;
+}
+
+.video-container video{
+width: 99.9%;
+border: 1px solid white;
+height: 50%;
+}
+
+
+.audio-container{
+width: 99.9%;
+height: 500px;
+display: flex;
+flex-flow:  column;
+justify-content: center;
+align-items: center;
+background-color: #1D232C;
+
+}
+
+.heading-box{
+width: 80%;
+height: 200px;
+text-align: center;
+font-family: var(--main-header-font);
+color: white;
+}
+
+.audio-box{
+width: 80%;
+height: auto;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+
+.audio-box img{
+width: 15%; 
+height: auto;
+border: 1px solid white;
+opacity: 0.7;
+filter: alpha(opacity=30);
+    
+}
+
+.audio-box img:hover{
+opacity: 1;
+filter: alpha(opacity=0);
+}
+
+
+
+.quote-generator{
+width: 99.9%;
+height: 400px;
+background-color: #282828;
+
+}
+
+div {
+  text-align:center;
+}
+.well {
+  margin: 10px auto;
+  width:500px;
+  padding: 60px;
+}
+h1 {
+  text-align:center;
+  text-shadow: 4px 4px 4px #aaa;
+    margin: 10px auto;
+    font-size: 4em;
+    color: #333;
+}
+#bh1 {
+  align-items:center;
+  justify-content:center;
+  class:blocktext;
+  font-size:16px;
+  }
+button {
+  class:btn btn-primary;
+background-color: #3AC5FF;
+color: white;
+border-collapse: #3AC5FF;
+font-family: var(--main-header-font);
+font-size: 20px;
+padding: 1%;
+margin-top: 1%;
+margin-bottom: 5%;
+background-color: transparent;
+border: 1px solid white;
+transition: .3s ease background-color;
+letter-spacing: 5px;
+
+
+    }
+
+button:hover{
+background-color:#003366;;
+transition: 1s ease background-color;
+
+
+}
+
+#quote {
+  font-size: 20px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align:center;
+color: white;
+font-family: var(--main-text-font);
+}
+#author {
+  font-size:16px;
+  font-style: italic;
+  font-family:"Times New Roman", Times, serif;
+  text-align:center;
+color: white;
+font-family: var(--main-text-font);
+}
+
+.row1{
+width: 99%;
+height: auto;
+display: flex;
+flex-flow: column;
+justify-content: center;
+background-color: #282828;
+margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
