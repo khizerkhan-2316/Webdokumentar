@@ -133,10 +133,10 @@ width: 99.9%;
 height: auto;
 }
 
-.video-container video{
+.video-container iframe{
 width: 99.9%;
 border: 1px solid white;
-height: 50%;
+height:750px;
 }
 
 
